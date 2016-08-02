@@ -9,7 +9,7 @@ unsigned char len = 0;
 unsigned char rxBuf[8];
 
 MCP_CAN CAN0(10);                               // Set CS to pin 10
-
+char msgString[64];
 
 void setup()
 {
